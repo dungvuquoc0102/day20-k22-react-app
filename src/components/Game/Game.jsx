@@ -53,7 +53,7 @@ export default function Game() {
       <h1>GAME: TIC TAC TOE</h1>
       <div>Winner: {winner || "None"}</div>
       <div className="flex gap-3 items-start justify-center">
-        <Board currentSquares={currentSquares1} handleClick={handleClick} />
+        <Board currentSquares={currentSquares} handleClick={handleClick} />
         <div>
           <h2>History</h2>
           <ul>
